@@ -1,0 +1,10 @@
+using System;
+namespace Examen_B
+{
+    class Estudiante_universitario : Estudiante, IEstudiante
+    {
+        public int creditos { set; get; }
+        public int cantidad_creditos { set; get; }
+        
+    }
+}
